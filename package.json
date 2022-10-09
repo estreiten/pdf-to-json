@@ -1,0 +1,15 @@
+{
+  "name": "pdf-to-json",
+  "version": "1.0.0",
+  "description": "PDF.js wrapper to convert text and image contents to JSON",
+  "main": "server.js",
+  "author": "Ezequiel Streitenberger <ezequiel@estreiten.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estreiten/pdf-to-json.git"
+  },
+  "homepage": "https://github.com/estreiten/pdf-to-json",
+  "dependencies": {
+    "pdfjs-dist": "^2.16.105"
+  }
+}
