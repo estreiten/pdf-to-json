@@ -138,5 +138,3 @@ module.exports = {
   getImg,
   test
 }
-
-test()
