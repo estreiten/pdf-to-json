@@ -120,6 +120,11 @@ function getImg (path, pageIndex, name) {
   })
 }
 
+async function getPageCount () {
+  const doc = await pdfjsLib.getDocument(path).promise
+  return doc.numPages
+}
+
 function test() {
   const path = './Lorem Ipsum.pdf'
   parseBook(path).then(async (data) => {
@@ -136,5 +141,6 @@ module.exports = {
   parsePage,
   parseBook,
   getImg,
+  getPageCount,
   test
 }
