@@ -120,7 +120,7 @@ function getImg (path, pageIndex, name) {
   })
 }
 
-async function getPageCount () {
+async function getPageCount (path) {
   const doc = await pdfjsLib.getDocument(path).promise
   return doc.numPages
 }
